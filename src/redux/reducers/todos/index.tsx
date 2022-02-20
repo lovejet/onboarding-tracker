@@ -51,11 +51,11 @@ export const todoList = createSlice({
     });
     builder.addCase(fetchTodos.fulfilled, (state, { payload }) => {
       state.data = payload;
-      state.status = "idle";
+      state.status = "loaded";
     });
     builder.addCase(fetchTodos.rejected, (state, { payload }) => {
       if (payload) state.error = payload.message;
-      state.status = "idle";
+      state.status = "loaded";
     });
   },
 });

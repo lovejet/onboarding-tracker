@@ -27,7 +27,7 @@ export interface INTERFACE_USER {
 }
 export interface INTERFACE_USER_LIST {
   data: INTERFACE_USER[];
-  status: "idle" | "loading";
+  status: "idle" | "loading" | "loaded";
   error: string | null;
 }
 
@@ -40,7 +40,7 @@ export interface INTERFACE_TODO {
 
 export interface INTERFACE_TODO_LIST {
   data: INTERFACE_TODO[];
-  status: "idle" | "loading";
+  status: "idle" | "loading" | "loaded";
   error: string | null;
 }
 
