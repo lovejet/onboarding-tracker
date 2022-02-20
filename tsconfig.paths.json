@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@helpers/*": ["./src/helpers/*"],
+      "@components/*": ["./src/components/fragments/*"],
+      "@constants": ["./src/constants"],
+      "@vectors": ["./src/components/vectors"],
+      "@fonts/*": ["./src/fonts/*"],
+      "@redux-store": ["./src/redux/store"],
+      "@redux-reducers/*": ["./src/redux/reducers/*"]
+    }
+  }
+}
