@@ -54,7 +54,7 @@ const Home = () => {
     if (userList.status === "loaded" && userList.data.length !== 0) {
       navigate(`/${userList.data[0].id}`)
     }
-  }, [userList])
+  }, [navigate, userList])
 
   return (
     <>
