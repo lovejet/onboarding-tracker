@@ -1,7 +1,6 @@
 
 import React from "react"
 import { useDispatch, useSelector } from "react-redux";
-import Checkbox from '@mui/material/Checkbox';
 
 import { selectTodoList, setTodoItemCompleted } from "@redux-reducers/todos";
 
